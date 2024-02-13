@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone_flutter/DummyData/dummy_info.dart';
-import 'package:whatsapp_ui_clone_flutter/Widgets/message_screen.dart';
+import 'package:whatsapp_ui_clone_flutter/views/message_screen.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});

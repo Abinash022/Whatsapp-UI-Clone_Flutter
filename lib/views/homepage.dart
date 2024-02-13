@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone_flutter/Constant/pallete.dart';
-import 'package:whatsapp_ui_clone_flutter/Widgets/chat_screen.dart';
+import 'package:whatsapp_ui_clone_flutter/views/chat_screen.dart';
+import 'package:whatsapp_ui_clone_flutter/views/update_screen.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -75,8 +76,9 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.only(top: 5.0),
               child: ChatScreen(),
             ),
-            Center(
-              child: Text('This Feature is not Implememted yet.'),
+            Padding(
+              padding: EdgeInsets.only(top: 5.0),
+              child: UpdateScreen(),
             ),
             Center(
               child: Text(
