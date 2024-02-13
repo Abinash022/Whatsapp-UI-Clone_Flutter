@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone_flutter/Constant/pallete.dart';
+import 'package:whatsapp_ui_clone_flutter/views/call_screen.dart';
 import 'package:whatsapp_ui_clone_flutter/views/chat_screen.dart';
 import 'package:whatsapp_ui_clone_flutter/views/update_screen.dart';
 
@@ -80,9 +81,9 @@ class _HomePageState extends State<HomePage> {
               padding: EdgeInsets.only(top: 5.0),
               child: UpdateScreen(),
             ),
-            Center(
-              child: Text(
-                  'You might not have any friend. No Incomming or Outgoing Calls.'),
+            Padding(
+              padding: EdgeInsets.only(top: 5.0),
+              child: CallTab(),
             ),
           ],
         ),
