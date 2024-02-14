@@ -16,7 +16,6 @@ class MessageScreen extends StatelessWidget {
           dummyinfo[0].name,
           style: const TextStyle(fontSize: 20),
         ),
-
         centerTitle: false,
         leading: IconButton(
           onPressed: () {
@@ -24,7 +23,6 @@ class MessageScreen extends StatelessWidget {
           },
           icon: const Icon(Icons.arrow_back),
         ),
-
         actions: [
           IconButton(
             onPressed: () {},
@@ -39,13 +37,9 @@ class MessageScreen extends StatelessWidget {
             icon: const Icon(Icons.more_vert),
           ),
         ],
-        // leading: const CircleAvatar(
-        //   backgroundImage: NetworkImage(''),
-        // ),
       ),
       body: const Column(
         children: [
-          // Image.asset('Assets/backgroundImage.png'),
           Expanded(
             child: ChatBubbles(),
           ),
