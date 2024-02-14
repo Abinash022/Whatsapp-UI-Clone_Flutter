@@ -5,7 +5,11 @@ class Pallete {
   static const textColor = Color.fromRGBO(241, 241, 242, 1);
   static const appBarColor = Color.fromRGBO(31, 44, 52, 1);
   static const webAppBarColor = Color.fromRGBO(42, 47, 50, 1);
+<<<<<<< HEAD
   static const messageColor = Color.fromRGBO(5, 96, 98, 1);
+=======
+  static const recievermessageColor = Color.fromRGBO(5, 96, 98, 1);
+>>>>>>> features/calls
   static const senderMessageColor = Color.fromRGBO(37, 45, 49, 1);
   static const tabColor = Color.fromRGBO(0, 167, 131, 1);
   static const searchBarColor = Color.fromRGBO(50, 55, 57, 1);
