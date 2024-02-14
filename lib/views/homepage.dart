@@ -1,8 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:whatsapp_ui_clone_flutter/Constant/pallete.dart';
+<<<<<<< HEAD
 import 'package:whatsapp_ui_clone_flutter/views/call_screen.dart';
 import 'package:whatsapp_ui_clone_flutter/views/chat_screen.dart';
 import 'package:whatsapp_ui_clone_flutter/views/update_screen.dart';
+=======
+>>>>>>> features/appbar
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -48,6 +51,7 @@ class _HomePageState extends State<HomePage> {
             unselectedLabelColor: Colors.grey,
             indicatorWeight: 3.0,
             indicatorSize: TabBarIndicatorSize.tab,
+<<<<<<< HEAD
             labelStyle: TextStyle(fontSize: 16),
             tabs: [
               Tab(
@@ -55,6 +59,12 @@ class _HomePageState extends State<HomePage> {
                   Icons.groups_3,
                   size: 25.0,
                 ),
+=======
+            labelStyle: TextStyle(fontSize: 14),
+            tabs: [
+              Tab(
+                icon: Icon(Icons.groups_3),
+>>>>>>> features/appbar
               ),
               Tab(
                 text: 'Chats',
@@ -68,6 +78,7 @@ class _HomePageState extends State<HomePage> {
             ],
           ),
         ),
+<<<<<<< HEAD
         body: const TabBarView(
           children: [
             Center(
@@ -94,6 +105,8 @@ class _HomePageState extends State<HomePage> {
             Icons.message_rounded,
           ),
         ),
+=======
+>>>>>>> features/appbar
       ),
     );
   }
